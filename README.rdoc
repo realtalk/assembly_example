@@ -1,0 +1,10 @@
+= inline and out of line assembly example code
+
+== How to build
+
+make
+
+== Why
+
+This goes along with Real Talk episode 5 and shows some examples of inline assembly vs out of line assembly. IMHO, out of line assembly is much cleaner and should be used (whenever possible) over inline assembly which is confusing and painful to read.
+
