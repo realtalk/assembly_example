@@ -1,5 +1,9 @@
 = inline and out of line assembly example code
 
+== What computer ?
+
+64bit Linux  *only*
+
 == How to build
 
 make
