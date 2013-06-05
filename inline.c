@@ -42,7 +42,7 @@ main(int argc, char *argv[])
 
   result = call_inline_asm_rdtsc();
 
-  printf("rdtsc value: %lld\n", result);
+  printf("rdtsc value: %" PRId64 "\n", result);
 
   return 0;
 }

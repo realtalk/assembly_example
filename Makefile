@@ -1,3 +1,5 @@
+all: outofline inline
+
 outofline:
 	gcc -c outofline.S -o outofline_asm.o
 	gcc -c outofline.c -o outofline_c.o -Wall
